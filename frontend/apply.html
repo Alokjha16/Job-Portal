@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Submit application for placement opportunity">
+  <title>Apply for Opportunity - College Placement Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-brand">
+        <h1>College Placement Portal</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Opportunities</a></li>
+        <li><a href="applications.html">My Applications</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="admin.html">Admin Panel</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="apply-page" role="main">
+    <div class="container">
+      <div class="page-header">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="jobs.html">Opportunities</a>
+          <span>/</span>
+          <span aria-current="page">Apply</span>
+        </nav>
+        <h1>Submit Application</h1>
+      </div>
+
+      <div class="job-summary" id="job-summary" aria-live="polite">
+        <div class="loading">Loading job information...</div>
+      </div>
+
+      <div id="application-form-container">
+        <form class="application-form" id="application-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="student-name">Full Name *</label>
+              <input type="text" id="student-name" name="studentName" required autocomplete="name"
+                     aria-required="true" aria-describedby="student-name-error">
+              <small id="student-name-error" class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="student-id">Student ID / Roll Number *</label>
+              <input type="text" id="student-id" name="studentId" required autocomplete="off"
+                     aria-required="true" aria-describedby="student-id-error">
+              <small id="student-id-error" class="error-message"></small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required autocomplete="email"
+                     aria-required="true" aria-describedby="email-error">
+              <small id="email-error" class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel"
+                     aria-required="true" aria-describedby="phone-error">
+              <small id="phone-error" class="error-message"></small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="branch">Branch *</label>
+              <select id="branch" name="branch" required autocomplete="off" aria-required="true" aria-describedby="branch-error">
+                <option value="">Select Branch</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Electronics & Communication">Electronics & Communication</option>
+                <option value="Electrical Engineering">Electrical Engineering</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Artificial Intelligence">Artificial Intelligence</option>
+              </select>
+              <small id="branch-error" class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="year">Current Year *</label>
+              <select id="year" name="year" required autocomplete="off" aria-required="true" aria-describedby="year-error">
+                <option value="">Select Year</option>
+                <option value="First Year">First Year</option>
+                <option value="Second Year">Second Year</option>
+                <option value="Third Year">Third Year</option>
+                <option value="Final Year">Final Year</option>
+              </select>
+              <small id="year-error" class="error-message"></small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cgpa">CGPA *</label>
+              <input type="number" id="cgpa" name="cgpa" min="0" max="10" step="0.01" required autocomplete="off"
+                     aria-required="true" aria-describedby="cgpa-error">
+              <small id="cgpa-error" class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="graduation-year">Graduation Year *</label>
+              <input type="number" id="graduation-year" name="graduationYear" min="2024" max="2030" required autocomplete="off"
+                     aria-required="true" aria-describedby="graduation-year-error">
+              <small id="graduation-year-error" class="error-message"></small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="skills">Skills (comma-separated) *</label>
+            <input type="text" id="skills" name="skills" required autocomplete="off"
+                   aria-required="true" aria-describedby="skills-error"
+                   placeholder="Python, JavaScript, React, Node.js">
+            <small id="skills-error" class="error-message"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="resume">Resume Link *</label>
+            <input type="url" id="resume" name="resume" required autocomplete="url"
+                   aria-required="true" aria-describedby="resume-error"
+                   placeholder="https://drive.google.com/your-resume">
+            <small id="resume-error" class="error-message"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="cover-letter">Cover Note / Short Introduction</label>
+            <textarea id="cover-letter" name="coverLetter" rows="4" autocomplete="off"
+                      aria-describedby="cover-letter-help"
+                      placeholder="Tell us why you're interested in this position and what makes you a good fit..."></textarea>
+            <small id="cover-letter-help">Optional: Brief introduction about yourself and why you're applying</small>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit Application</button>
+            <button type="button" class="btn btn-outline" id="cancel-btn">Cancel</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="success-screen" class="success-screen hidden">
+        <h2>Application Submitted Successfully!</h2>
+        <p>Your application has been received and is under review.</p>
+        <div class="success-details">
+          <div class="success-details-item">
+            <strong>Application ID:</strong>
+            <span id="success-app-id">-</span>
+          </div>
+          <div class="success-details-item">
+            <strong>Company:</strong>
+            <span id="success-company">-</span>
+          </div>
+          <div class="success-details-item">
+            <strong>Role:</strong>
+            <span id="success-role">-</span>
+          </div>
+          <div class="success-details-item">
+            <strong>Submitted Date:</strong>
+            <span id="success-date">-</span>
+          </div>
+          <div class="success-details-item">
+            <strong>Current Status:</strong>
+            <span id="success-status">Submitted</span>
+          </div>
+        </div>
+        <div class="form-actions mt-3">
+          <a href="applications.html" class="btn btn-primary">View My Applications</a>
+          <a href="jobs.html" class="btn btn-outline">Browse More Opportunities</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 College Placement Portal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="toast-container" id="toast-container" role="alert" aria-live="polite"></div>
+
+  <script src="js/common.js"></script>
+  <script src="js/apply.js"></script>
+</body>
+</html>

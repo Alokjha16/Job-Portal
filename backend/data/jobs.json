@@ -1,0 +1,633 @@
+[
+  {
+    "id": "1",
+    "title": "Software Engineer",
+    "company": "Nexora Technologies",
+    "companyLogo": "NT",
+    "industry": "Software Development",
+    "companyDescription": "Nexora Technologies is a leading software development company specializing in enterprise solutions and cloud computing.",
+    "companyWebsite": "https://nexoratech.example.com",
+    "location": "Bangalore, India",
+    "workMode": "On-site",
+    "type": "Full-time",
+    "salary": "₹12-18 LPA",
+    "experience": "0-2 years",
+    "description": "We are looking for a talented Software Engineer to join our team. You will be working on cutting-edge technologies and building scalable solutions that impact enterprise clients worldwide. The role involves full-stack development with focus on backend systems and API development.",
+    "requirements": [
+      "B.E./B.Tech in Computer Science, IT, or related branches",
+      "Minimum CGPA: 6.5",
+      "No active backlogs",
+      "Strong programming skills in Python, Java, or Node.js",
+      "Experience with web development frameworks (React, Angular, or Vue.js)",
+      "Knowledge of data structures and algorithms",
+      "Understanding of database systems (SQL/NoSQL)",
+      "Excellent problem-solving skills"
+    ],
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL",
+      "Git"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech",
+      "branches": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics & Communication"
+      ],
+      "minCGPA": 6.5,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Online Assessment (Technical)",
+      "Technical Interview",
+      "System Design Round",
+      "HR Interview"
+    ],
+    "deadline": "2026-10-31",
+    "postedDate": "2026-09-15",
+    "isOpen": true,
+    "createdAt": "2026-09-15T10:00:00.000Z",
+    "updatedAt": "2026-09-25T15:55:59.601Z"
+  },
+  {
+    "id": "2",
+    "title": "Data Scientist",
+    "company": "Vertex Systems",
+    "companyLogo": "VS",
+    "industry": "Data Analytics & AI",
+    "companyDescription": "Vertex Systems specializes in data analytics, machine learning solutions, and AI-powered business intelligence for enterprise clients.",
+    "companyWebsite": "https://vertexsystems.example.com",
+    "location": "Hyderabad, India",
+    "workMode": "Hybrid",
+    "type": "Full-time",
+    "salary": "₹14-20 LPA",
+    "experience": "0-2 years",
+    "description": "Join our AI and ML team to work on innovative projects. You will be responsible for developing machine learning models, analyzing large datasets, and creating data-driven solutions that help clients make informed business decisions.",
+    "requirements": [
+      "B.E./B.Tech/M.Tech in Computer Science, Statistics, or related field",
+      "Minimum CGPA: 7.0",
+      "No active backlogs",
+      "Strong knowledge of Python and ML frameworks (TensorFlow, PyTorch)",
+      "Experience with data visualization tools (Tableau, Power BI)",
+      "Strong statistical and mathematical background",
+      "Experience with deep learning is a plus",
+      "Knowledge of big data technologies (Spark, Hadoop) is preferred"
+    ],
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "Data Analysis",
+      "SQL",
+      "Statistics",
+      "Big Data"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech/M.Tech",
+      "branches": [
+        "Computer Science",
+        "Data Science",
+        "Statistics",
+        "Mathematics"
+      ],
+      "minCGPA": 7,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Online Assessment (Aptitude & Technical)",
+      "Technical Interview (ML/Data Science)",
+      "Case Study",
+      "HR Interview"
+    ],
+    "deadline": "2026-11-15",
+    "postedDate": "2026-09-18",
+    "isOpen": true,
+    "createdAt": "2026-09-18T14:30:00.000Z",
+    "updatedAt": "2026-09-18T14:30:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "Backend Developer",
+    "company": "CodeVista",
+    "companyLogo": "CV",
+    "industry": "Software Development",
+    "companyDescription": "CodeVista builds robust backend systems and APIs for startups and enterprises, focusing on scalability, security, and performance.",
+    "companyWebsite": "https://codevista.example.com",
+    "location": "Pune, India",
+    "workMode": "On-site",
+    "type": "Full-time",
+    "salary": "₹12-16 LPA",
+    "experience": "0-2 years",
+    "description": "Build robust backend systems for our client projects. You will work on high-traffic systems and ensure scalability, reliability, and performance of API services and database architectures.",
+    "requirements": [
+      "B.E./B.Tech in Computer Science, IT, or related field",
+      "Minimum CGPA: 6.5",
+      "No active backlogs",
+      "Strong programming skills in Java, Node.js, or Python",
+      "Experience with database systems (PostgreSQL, MongoDB, Redis)",
+      "Knowledge of microservices architecture",
+      "Understanding of cloud services (AWS, GCP, Azure)",
+      "Experience with containerization (Docker, Kubernetes) is preferred",
+      "Knowledge of API design and RESTful services"
+    ],
+    "skills": [
+      "Java",
+      "Node.js",
+      "Python",
+      "PostgreSQL",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Microservices"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech",
+      "branches": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics & Communication"
+      ],
+      "minCGPA": 6.5,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Online Assessment (Backend)",
+      "Technical Interview",
+      "System Design Round",
+      "HR Interview"
+    ],
+    "deadline": "2026-11-01",
+    "postedDate": "2026-09-22",
+    "isOpen": true,
+    "createdAt": "2026-09-22T11:45:00.000Z",
+    "updatedAt": "2026-09-22T11:45:00.000Z"
+  },
+  {
+    "id": "5",
+    "title": "DevOps Engineer",
+    "company": "FinEdge Solutions",
+    "companyLogo": "FE",
+    "industry": "Financial Technology",
+    "companyDescription": "FinEdge Solutions provides financial technology infrastructure and cloud services for banking and fintech companies, ensuring security and compliance.",
+    "companyWebsite": "https://finedgesolutions.example.com",
+    "location": "Chennai, India",
+    "workMode": "Hybrid",
+    "type": "Full-time",
+    "salary": "₹15-22 LPA",
+    "experience": "0-2 years",
+    "description": "Join our infrastructure team to build and maintain CI/CD pipelines, manage cloud infrastructure, and ensure high availability of our financial services platforms with focus on security and compliance.",
+    "requirements": [
+      "B.E./B.Tech in Computer Science, IT, or related field",
+      "Minimum CGPA: 6.5",
+      "No active backlogs",
+      "Experience with containerization (Docker, Kubernetes)",
+      "Knowledge of cloud platforms (AWS, GCP, Azure)",
+      "Experience with CI/CD tools (Jenkins, GitLab CI, GitHub Actions)",
+      "Strong scripting skills (Python, Shell, PowerShell)",
+      "Understanding of infrastructure as code (Terraform, Ansible)",
+      "Knowledge of security best practices in cloud environments"
+    ],
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "Jenkins",
+      "Python",
+      "Terraform",
+      "CI/CD"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech",
+      "branches": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics & Communication"
+      ],
+      "minCGPA": 6.5,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Online Assessment (DevOps)",
+      "Technical Interview",
+      "Practical Scenario",
+      "HR Interview"
+    ],
+    "deadline": "2026-10-25",
+    "postedDate": "2026-09-25",
+    "isOpen": true,
+    "createdAt": "2026-09-25T16:20:00.000Z",
+    "updatedAt": "2026-09-25T15:42:06.075Z"
+  },
+  {
+    "id": "6",
+    "title": "Product Manager",
+    "company": "CloudNova",
+    "companyLogo": "CN",
+    "industry": "Cloud Computing",
+    "companyDescription": "CloudNova provides cloud infrastructure and platform services for enterprises, helping them migrate and optimize their cloud operations.",
+    "companyWebsite": "https://cloudnova.example.com",
+    "location": "Bangalore, India",
+    "workMode": "On-site",
+    "type": "Full-time",
+    "salary": "₹18-25 LPA",
+    "experience": "0-2 years",
+    "description": "Drive product strategy and roadmap for our cloud platform services. Work closely with engineering, design, and business teams to deliver impactful products that solve real customer problems in cloud computing.",
+    "requirements": [
+      "MBA or B.Tech with product management interest/certification",
+      "Minimum CGPA: 7.0",
+      "No active backlogs",
+      "Strong analytical and problem-solving skills",
+      "Excellent communication and leadership abilities",
+      "Experience with agile development methodologies",
+      "Understanding of user experience principles",
+      "Knowledge of cloud computing concepts is preferred",
+      "Ability to work with cross-functional teams"
+    ],
+    "skills": [
+      "Product Management",
+      "Agile",
+      "User Research",
+      "Data Analysis",
+      "Communication",
+      "Leadership"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech/MBA",
+      "branches": [
+        "Computer Science",
+        "Information Technology",
+        "Business Administration"
+      ],
+      "minCGPA": 7,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Case Study",
+      "Product Interview",
+      "Leadership Round",
+      "HR Interview"
+    ],
+    "deadline": "2026-11-10",
+    "postedDate": "2026-09-28",
+    "isOpen": true,
+    "createdAt": "2026-09-28T13:00:00.000Z",
+    "updatedAt": "2026-09-28T13:00:00.000Z"
+  },
+  {
+    "id": "7",
+    "title": "Security Engineer",
+    "company": "TechSphere",
+    "companyLogo": "TS",
+    "industry": "Cybersecurity",
+    "companyDescription": "TechSphere specializes in cybersecurity solutions, providing security assessment, penetration testing, and security infrastructure for enterprise clients.",
+    "companyWebsite": "https://techsphere.example.com",
+    "location": "Delhi NCR, India",
+    "workMode": "On-site",
+    "type": "Full-time",
+    "salary": "₹16-24 LPA",
+    "experience": "0-2 years",
+    "description": "Protect our clients' systems and data from security threats. You will conduct security assessments, implement security measures, respond to incidents, and ensure compliance with security standards and regulations.",
+    "requirements": [
+      "B.E./B.Tech in Computer Science, Information Security, or related field",
+      "Minimum CGPA: 6.5",
+      "No active backlogs",
+      "Knowledge of security protocols and encryption",
+      "Experience with penetration testing tools (Burp Suite, Metasploit)",
+      "Understanding of compliance requirements (GDPR, HIPAA, PCI DSS)",
+      "Strong attention to detail and analytical skills",
+      "Knowledge of network security and application security",
+      "Security certifications (CEH, CISSP) are a plus"
+    ],
+    "skills": [
+      "Cybersecurity",
+      "Penetration Testing",
+      "Network Security",
+      "Burp Suite",
+      "Python",
+      "Compliance"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech",
+      "branches": [
+        "Computer Science",
+        "Information Security",
+        "Electronics & Communication"
+      ],
+      "minCGPA": 6.5,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Online Assessment (Security)",
+      "Technical Interview",
+      "Security Scenario",
+      "HR Interview"
+    ],
+    "deadline": "2026-10-15",
+    "postedDate": "2026-09-30",
+    "isOpen": true,
+    "createdAt": "2026-09-30T10:30:00.000Z",
+    "updatedAt": "2026-09-30T10:30:00.000Z"
+  },
+  {
+    "id": "8",
+    "title": "Machine Learning Engineer",
+    "company": "InnoStack",
+    "companyLogo": "IS",
+    "industry": "AI & Machine Learning",
+    "companyDescription": "InnoStack develops AI-powered solutions for businesses, specializing in natural language processing, computer vision, and predictive analytics.",
+    "companyWebsite": "https://innostack.example.com",
+    "location": "Hyderabad, India",
+    "workMode": "Hybrid",
+    "type": "Full-time",
+    "salary": "₹18-28 LPA",
+    "experience": "0-2 years",
+    "description": "Develop and deploy machine learning models for various AI applications. Work on cutting-edge projects in computer vision, natural language processing, and predictive analytics using modern ML frameworks and cloud infrastructure.",
+    "requirements": [
+      "M.Tech/B.Tech in Computer Science, AI, or related field",
+      "Minimum CGPA: 7.5",
+      "No active backlogs",
+      "Strong programming skills in Python and C++",
+      "Experience with deep learning frameworks (TensorFlow, PyTorch)",
+      "Knowledge of GPU programming (CUDA, OpenCL)",
+      "Understanding of model optimization and deployment",
+      "Experience with ML pipelines and MLOps is preferred",
+      "Knowledge of cloud ML services (AWS SageMaker, GCP AI Platform)"
+    ],
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Machine Learning",
+      "Deep Learning",
+      "CUDA",
+      "MLOps"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech/M.Tech",
+      "branches": [
+        "Computer Science",
+        "Artificial Intelligence",
+        "Data Science"
+      ],
+      "minCGPA": 7.5,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Online Assessment (ML/AI)",
+      "Technical Interview",
+      "Research Discussion",
+      "System Design",
+      "HR Interview"
+    ],
+    "deadline": "2026-11-20",
+    "postedDate": "2026-10-02",
+    "isOpen": true,
+    "createdAt": "2026-10-02T15:45:00.000Z",
+    "updatedAt": "2026-10-02T15:45:00.000Z"
+  },
+  {
+    "id": "9",
+    "title": "Full Stack Developer",
+    "company": "Nexora Technologies",
+    "companyLogo": "NT",
+    "industry": "Software Development",
+    "companyDescription": "Nexora Technologies is a leading software development company specializing in enterprise solutions and cloud computing.",
+    "companyWebsite": "https://nexoratech.example.com",
+    "location": "Bangalore, India",
+    "workMode": "On-site",
+    "type": "Full-time",
+    "salary": "₹14-20 LPA",
+    "experience": "0-2 years",
+    "description": "We are looking for versatile Full Stack Developers who can work on both frontend and backend development. You will be part of cross-functional teams building complete web applications from database to user interface.",
+    "requirements": [
+      "B.E./B.Tech in Computer Science, IT, or related branches",
+      "Minimum CGPA: 6.5",
+      "No active backlogs",
+      "Strong programming skills in JavaScript/TypeScript",
+      "Experience with frontend frameworks (React, Angular, or Vue.js)",
+      "Experience with backend frameworks (Node.js, Express, or similar)",
+      "Knowledge of database systems (SQL/NoSQL)",
+      "Understanding of API design and RESTful services",
+      "Experience with version control and collaborative development"
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "PostgreSQL",
+      "Git"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech",
+      "branches": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics & Communication"
+      ],
+      "minCGPA": 6.5,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Online Assessment (Full Stack)",
+      "Frontend Technical Interview",
+      "Backend Technical Interview",
+      "System Design",
+      "HR Interview"
+    ],
+    "deadline": "2026-11-05",
+    "postedDate": "2026-10-05",
+    "isOpen": true,
+    "createdAt": "2026-10-05T12:00:00.000Z",
+    "updatedAt": "2026-10-05T12:00:00.000Z"
+  },
+  {
+    "id": "10",
+    "title": "QA Engineer",
+    "company": "BluePeak Digital",
+    "companyLogo": "BP",
+    "industry": "Digital Solutions",
+    "companyDescription": "BluePeak Digital creates cutting-edge web and mobile applications for clients across various industries, focusing on user experience and performance.",
+    "companyWebsite": "https://bluepeakdigital.example.com",
+    "location": "Mumbai, India",
+    "workMode": "Remote",
+    "type": "Full-time",
+    "salary": "₹8-12 LPA",
+    "experience": "0-2 years",
+    "description": "Ensure the quality of our digital products through comprehensive testing. You will develop test plans, execute manual and automated tests, and work closely with development teams to identify and resolve issues.",
+    "requirements": [
+      "B.E./B.Tech in Computer Science, IT, or related field",
+      "Minimum CGPA: 6.0",
+      "No active backlogs",
+      "Knowledge of software testing methodologies",
+      "Experience with test automation tools (Selenium, Cypress)",
+      "Understanding of API testing and performance testing",
+      "Strong attention to detail and analytical skills",
+      "Knowledge of bug tracking tools (JIRA, Bugzilla)",
+      "Experience with mobile testing is a plus"
+    ],
+    "skills": [
+      "Software Testing",
+      "Selenium",
+      "Cypress",
+      "API Testing",
+      "JIRA",
+      "Python",
+      "JavaScript"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech",
+      "branches": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics & Communication"
+      ],
+      "minCGPA": 6,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Resume Shortlisting",
+      "Online Assessment (Testing)",
+      "Technical Interview",
+      "Practical Test Scenario",
+      "HR Interview"
+    ],
+    "deadline": "2026-10-18",
+    "postedDate": "2026-10-08",
+    "isOpen": true,
+    "createdAt": "2026-10-08T14:30:00.000Z",
+    "updatedAt": "2026-10-08T14:30:00.000Z"
+  },
+  {
+    "id": "11",
+    "title": "Software Development Engineer (SDE-1)",
+    "company": "Google India",
+    "companyLogo": "GI",
+    "industry": "Internet & AI",
+    "companyDescription": "Google is a global technology leader focused on improving the ways people connect with information through Search, Cloud, Android, and AI.",
+    "companyWebsite": "https://careers.google.com",
+    "location": "Bangalore, India",
+    "workMode": "Hybrid",
+    "type": "Full-time",
+    "salary": "₹28-36 LPA",
+    "experience": "0-1 years",
+    "description": "Join Google's Core Engineering team. You will build high-performance distributed systems, optimize search & AI infrastructure, and collaborate with world-class engineers.",
+    "requirements": [
+      "B.E./B.Tech/M.Tech in CS or IT",
+      "Minimum CGPA: 7.5",
+      "No active backlogs",
+      "Excellence in Data Structures & Algorithms",
+      "Proficiency in C++, Java, or Python",
+      "Understanding of System Design principles"
+    ],
+    "skills": [
+      "C++",
+      "Java",
+      "Python",
+      "Algorithms",
+      "Distributed Systems",
+      "System Design"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech/M.Tech",
+      "branches": [
+        "Computer Science",
+        "Information Technology",
+        "Data Science",
+        "Artificial Intelligence"
+      ],
+      "minCGPA": 7.5,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Online Coding Challenge",
+      "Technical Phone Screen",
+      "3x Onsite Coding & DSA Rounds",
+      "Googleyness & Leadership Round"
+    ],
+    "deadline": "2026-12-15",
+    "postedDate": "2026-10-10",
+    "isOpen": true,
+    "createdAt": "2026-10-10T09:00:00.000Z",
+    "updatedAt": "2026-10-10T09:00:00.000Z"
+  },
+  {
+    "id": "12",
+    "title": "Cloud Solutions Developer",
+    "company": "Microsoft",
+    "companyLogo": "MS",
+    "industry": "Cloud & Software",
+    "companyDescription": "Microsoft enables digital transformation for the era of an intelligent cloud and intelligent edge. Our mission is to empower every person on the planet.",
+    "companyWebsite": "https://careers.microsoft.com",
+    "location": "Hyderabad, India",
+    "workMode": "Hybrid",
+    "type": "Full-time",
+    "salary": "₹26-32 LPA",
+    "experience": "0-1 years",
+    "description": "Empower enterprise clients on Azure. You will develop cloud-native APIs, microservices, and AI features integrated with Azure infrastructure.",
+    "requirements": [
+      "B.E./B.Tech/M.Tech in CS, IT, ECE",
+      "Minimum CGPA: 7.0",
+      "No active backlogs",
+      "Proficiency in C#, Java, Python, or Go",
+      "Knowledge of Azure or AWS cloud computing"
+    ],
+    "skills": [
+      "C#",
+      ".NET",
+      "Azure",
+      "Microservices",
+      "Docker",
+      "Kubernetes"
+    ],
+    "eligibility": {
+      "education": "B.E./B.Tech/M.Tech",
+      "branches": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics & Communication",
+        "Data Science"
+      ],
+      "minCGPA": 7,
+      "maxBacklogs": 0,
+      "graduationYear": 2026
+    },
+    "selectionProcess": [
+      "Codility Online Assessment",
+      "Technical Interview Round 1",
+      "Technical Interview Round 2",
+      "AA (As Appropriate) HR Round"
+    ],
+    "deadline": "2026-12-20",
+    "postedDate": "2026-10-10",
+    "isOpen": true,
+    "createdAt": "2026-10-10T10:00:00.000Z",
+    "updatedAt": "2026-10-10T10:00:00.000Z"
+  }
+]

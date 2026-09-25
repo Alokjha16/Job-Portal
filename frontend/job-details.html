@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View detailed job information and apply">
+  <title>Job Details - College Placement Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-brand">
+        <h1>College Placement Portal</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Opportunities</a></li>
+        <li><a href="applications.html">My Applications</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="admin.html">Admin Panel</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="job-details-page" role="main">
+    <div class="container">
+      <div class="back-link">
+        <a href="jobs.html" aria-label="Back to job listings">&larr; Back to Opportunities</a>
+      </div>
+
+      <div class="job-details" id="job-details">
+        <div class="loading" aria-live="polite">Loading job details...</div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 College Placement Portal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="toast-container" id="toast-container" role="alert" aria-live="polite"></div>
+
+  <script src="js/common.js?v=2"></script>
+  <script src="js/job-details.js?v=2"></script>
+</body>
+</html>

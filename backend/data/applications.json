@@ -1,0 +1,349 @@
+[
+  {
+    "id": "1",
+    "jobId": "1",
+    "studentName": "Rahul Sharma",
+    "studentId": "2024001",
+    "email": "rahul.sharma@college.edu",
+    "phone": "+91 98765 43210",
+    "branch": "Computer Science",
+    "year": "Final Year",
+    "cgpa": 7.8,
+    "graduationYear": 2026,
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL"
+    ],
+    "resume": "https://drive.google.com/file/d/abc123",
+    "coverLetter": "I am excited to apply for the Software Engineer position at Nexora Technologies. With my strong programming skills and passion for building scalable solutions, I believe I would be a great fit for your team. My academic projects and internship experience have prepared me well for this role.",
+    "status": "Under Review",
+    "appliedAt": "2026-09-20T10:30:00.000Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-09-20T10:30:00.000Z"
+      },
+      {
+        "status": "Under Review",
+        "at": "2026-09-21T14:20:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "jobId": "2",
+    "studentName": "Priya Patel",
+    "studentId": "2024002",
+    "email": "priya.patel@college.edu",
+    "phone": "+91 87654 32109",
+    "branch": "Data Science",
+    "year": "Final Year",
+    "cgpa": 8.2,
+    "graduationYear": 2026,
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "Data Analysis",
+      "SQL",
+      "Statistics"
+    ],
+    "resume": "https://drive.google.com/file/d/def456",
+    "coverLetter": "I am applying for the Data Scientist position at Vertex Systems. My background in machine learning and data analysis, along with my academic projects in predictive modeling, makes me well-suited for this role. I am particularly interested in working on AI-powered business intelligence solutions.",
+    "status": "Shortlisted",
+    "appliedAt": "2026-09-22T11:00:00.000Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-09-22T11:00:00.000Z"
+      },
+      {
+        "status": "Under Review",
+        "at": "2026-09-23T09:30:00.000Z"
+      },
+      {
+        "status": "Shortlisted",
+        "at": "2026-09-25T16:45:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "jobId": "3",
+    "studentName": "Amit Kumar",
+    "studentId": "2024003",
+    "email": "amit.kumar@college.edu",
+    "phone": "+91 76543 21098",
+    "branch": "Information Technology",
+    "year": "Final Year",
+    "cgpa": 7.1,
+    "graduationYear": 2026,
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Angular",
+      "TypeScript",
+      "Git"
+    ],
+    "resume": "https://drive.google.com/file/d/ghi789",
+    "coverLetter": "I am interested in the Frontend Developer position at BluePeak Digital. My expertise in modern JavaScript frameworks and responsive design, along with my portfolio of web projects, aligns well with your requirements. I am particularly excited about the remote work opportunity.",
+    "status": "Interview Scheduled",
+    "appliedAt": "2026-09-24T14:15:00.000Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-09-24T14:15:00.000Z"
+      },
+      {
+        "status": "Under Review",
+        "at": "2026-09-25T10:30:00.000Z"
+      },
+      {
+        "status": "Shortlisted",
+        "at": "2026-09-26T15:00:00.000Z"
+      },
+      {
+        "status": "Interview Scheduled",
+        "at": "2026-09-28T11:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "jobId": "4",
+    "studentName": "Sneha Reddy",
+    "studentId": "2024004",
+    "email": "sneha.reddy@college.edu",
+    "phone": "+91 65432 10987",
+    "branch": "Computer Science",
+    "year": "Final Year",
+    "cgpa": 8.5,
+    "graduationYear": 2026,
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Node.js",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Microservices"
+    ],
+    "resume": "https://drive.google.com/file/d/jkl012",
+    "coverLetter": "I am applying for the Backend Developer position at CodeVista. My experience with building scalable backend systems during my internship, along with my strong academic foundation in distributed systems, makes me a strong candidate. I am particularly interested in working on microservices architecture.",
+    "status": "Selected",
+    "appliedAt": "2026-09-15T09:00:00.000Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-09-15T09:00:00.000Z"
+      },
+      {
+        "status": "Under Review",
+        "at": "2026-09-16T14:30:00.000Z"
+      },
+      {
+        "status": "Shortlisted",
+        "at": "2026-09-18T10:15:00.000Z"
+      },
+      {
+        "status": "Interview Scheduled",
+        "at": "2026-09-20T11:00:00.000Z"
+      },
+      {
+        "status": "Selected",
+        "at": "2026-09-25T14:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "jobId": "5",
+    "studentName": "Vikram Singh",
+    "studentId": "2024005",
+    "email": "vikram.singh@college.edu",
+    "phone": "+91 54321 09876",
+    "branch": "Computer Science",
+    "year": "Final Year",
+    "cgpa": 7.4,
+    "graduationYear": 2026,
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Python",
+      "Bash Scripting",
+      "CI/CD",
+      "Terraform"
+    ],
+    "resume": "https://drive.google.com/file/d/mno345",
+    "coverLetter": "I am excited about the DevOps Engineer position at FinEdge Solutions. My experience with containerization and cloud infrastructure during my internship, along with my strong scripting skills, aligns perfectly with your requirements. I am particularly interested in the financial technology domain.",
+    "status": "Under Review",
+    "appliedAt": "2026-09-26T16:45:00.000Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-09-26T16:45:00.000Z"
+      },
+      {
+        "status": "Under Review",
+        "at": "2026-09-27T09:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "jobId": "6",
+    "studentName": "Ananya Gupta",
+    "studentId": "2024006",
+    "email": "ananya.gupta@college.edu",
+    "phone": "+91 43210 98765",
+    "branch": "Information Technology",
+    "year": "Final Year",
+    "cgpa": 7.9,
+    "graduationYear": 2026,
+    "skills": [
+      "Product Management",
+      "Agile",
+      "User Research",
+      "Data Analysis",
+      "Communication",
+      "Leadership"
+    ],
+    "resume": "https://drive.google.com/file/d/pqr678",
+    "coverLetter": "I am applying for the Product Manager position at CloudNova. My leadership experience in college technical events, along with my coursework in business analysis and user experience design, has prepared me well for this role. I am passionate about building products that solve real customer problems.",
+    "status": "Submitted",
+    "appliedAt": "2026-09-28T12:30:00.000Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-09-28T12:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "jobId": "8",
+    "studentName": "Karthik Rajan",
+    "studentId": "2024007",
+    "email": "karthik.rajan@college.edu",
+    "phone": "+91 32109 87654",
+    "branch": "Artificial Intelligence",
+    "year": "Final Year",
+    "cgpa": 8.7,
+    "graduationYear": 2026,
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Machine Learning",
+      "Deep Learning",
+      "CUDA",
+      "MLOps"
+    ],
+    "resume": "https://drive.google.com/file/d/stu901",
+    "coverLetter": "I am applying for the Machine Learning Engineer position at InnoStack. My research work in computer vision and natural language processing, along with my strong foundation in deep learning, makes me well-suited for this role. I am particularly interested in working on cutting-edge AI applications.",
+    "status": "Under Review",
+    "appliedAt": "2026-10-03T15:00:00.000Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-10-03T15:00:00.000Z"
+      },
+      {
+        "status": "Under Review",
+        "at": "2026-10-04T10:45:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "jobId": "1",
+    "studentName": "Meera Nair",
+    "studentId": "2024008",
+    "email": "meera.nair@college.edu",
+    "phone": "+91 21098 76543",
+    "branch": "Computer Science",
+    "year": "Final Year",
+    "cgpa": 6.8,
+    "graduationYear": 2026,
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL",
+      "Git"
+    ],
+    "resume": "https://drive.google.com/file/d/vwx234",
+    "coverLetter": "I am excited to apply for the Software Engineer position at Nexora Technologies. My academic projects in web development and my internship experience have given me a strong foundation in full-stack development. I am eager to contribute to your team.",
+    "status": "Rejected",
+    "appliedAt": "2026-09-18T11:30:00.000Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-09-18T11:30:00.000Z"
+      },
+      {
+        "status": "Under Review",
+        "at": "2026-09-19T14:00:00.000Z"
+      },
+      {
+        "status": "Rejected",
+        "at": "2026-09-21T10:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "1790342399130",
+    "jobId": "1",
+    "studentName": "John Doe",
+    "studentId": "CS12345",
+    "email": "john.doe@example.com",
+    "phone": "9876543210",
+    "branch": "Computer Science",
+    "year": "First Year",
+    "cgpa": 8.5,
+    "graduationYear": 2025,
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "React"
+    ],
+    "resume": "https://drive.google.com/resume.pdf",
+    "coverLetter": "",
+    "status": "Submitted",
+    "appliedAt": "2026-09-25T13:19:59.130Z",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "at": "2026-09-25T13:19:59.130Z"
+      }
+    ]
+  },
+  {
+    "id": "1790348267464",
+    "jobId": "1",
+    "studentName": "Alok jha",
+    "studentId": "C9375739",
+    "email": "aj9002468@gmail.com",
+    "phone": "8591040081",
+    "branch": "Electronics & Communication",
+    "year": "Third Year",
+    "cgpa": 9,
+    "graduationYear": 2028,
+    "skills": [
+      "python"
+    ],
+    "resume": "https://drive.google.com/file/d/1cUO7aWRULmDf7DC-ALywvgbJ5gyoVy_b/view?usp=drive_link",
+    "coverLetter": "",
+    "status": "Under Review",
+    "appliedAt": "2026-09-25T14:57:47.464Z"
+  }
+]

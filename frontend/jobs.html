@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse and search placement opportunities">
+  <title>Placement Opportunities - College Placement Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-brand">
+        <h1>College Placement Portal</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html" class="active" aria-current="page">Opportunities</a></li>
+        <li><a href="applications.html">My Applications</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="admin.html">Admin Panel</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="jobs-page" role="main">
+    <div class="container">
+      <div class="page-header">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span aria-current="page">Placement Opportunities</span>
+        </nav>
+        <h1>Placement Opportunities</h1>
+        <p>Browse and apply for placement opportunities from participating companies</p>
+      </div>
+
+      <form class="search-form" id="search-form" role="search" aria-label="Job search and filters">
+        <div class="form-group">
+          <label for="search-input">Search</label>
+          <input type="text" id="search-input" placeholder="Company, role, or skills..." autocomplete="off" aria-label="Search jobs">
+        </div>
+        <div class="form-group">
+          <label for="location-filter">Location</label>
+          <select id="location-filter" autocomplete="off" aria-label="Filter by location">
+            <option value="">All Locations</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Pune">Pune</option>
+            <option value="Delhi NCR">Delhi NCR</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="type-filter">Job Type</label>
+          <select id="type-filter" autocomplete="off" aria-label="Filter by job type">
+            <option value="">All Types</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="Internship">Internship</option>
+            <option value="Contract">Contract</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="work-mode-filter">Work Mode</label>
+          <select id="work-mode-filter" autocomplete="off" aria-label="Filter by work mode">
+            <option value="">All Modes</option>
+            <option value="On-site">On-site</option>
+            <option value="Remote">Remote</option>
+            <option value="Hybrid">Hybrid</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="sort-order">Sort By</label>
+          <select id="sort-order" autocomplete="off" aria-label="Sort jobs">
+            <option value="latest">Latest Posted</option>
+            <option value="deadline">Application Deadline</option>
+            <option value="salary-high">Salary: High to Low</option>
+            <option value="salary-low">Salary: Low to High</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Search</button>
+          <button type="button" class="btn btn-outline" id="reset-filters">Reset</button>
+        </div>
+      </form>
+
+      <div class="jobs-list" id="jobs-list" role="list" aria-label="Job listings">
+        <div class="loading" aria-live="polite">Loading opportunities...</div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 College Placement Portal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="toast-container" id="toast-container" role="alert" aria-live="polite"></div>
+
+  <script src="js/common.js"></script>
+  <script src="js/jobs.js"></script>
+</body>
+</html>

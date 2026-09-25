@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="College Placement Portal - Browse placement opportunities and submit applications">
+  <title>College Placement Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-brand">
+        <span class="brand-icon">🎓</span>
+        <h1>College Placement Portal</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="jobs.html">Opportunities</a></li>
+        <li><a href="applications.html">My Applications</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="admin.html">Admin Panel</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="hero" role="main">
+    <div class="hero-bg-glow"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>⚡ 2026 Campus Recruitment Season Active</span>
+        </div>
+        <h1>Launch Your Dream Career Today</h1>
+        <p>Explore premium placement opportunities from top-tier companies. Submit applications, track selection status, and accelerate your professional journey.</p>
+        
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-icon">💼</div>
+            <h3 id="jobs-count">0</h3>
+            <p>Active Opportunities</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🏢</div>
+            <h3 id="companies-count">0</h3>
+            <p>Top Recruiters</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🎓</div>
+            <h3 id="placed-count">0</h3>
+            <p>Students Placed</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">💰</div>
+            <h3 id="avg-package">0 LPA</h3>
+            <p>Average Package</p>
+          </div>
+        </div>
+        
+        <div class="hero-actions">
+          <a href="jobs.html" class="btn btn-primary btn-lg">Explore Opportunities ➔</a>
+          <a href="dashboard.html" class="btn btn-secondary btn-lg">My Dashboard 📊</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="featured-section" aria-labelledby="featured-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">✨ Handpicked Roles</span>
+        <h2 id="featured-heading">Featured Placement Opportunities</h2>
+        <p>Highlighting some of the most sought-after campus recruitment positions this week</p>
+      </div>
+      <div class="featured-grid" id="featured-jobs">
+        <div class="loading">Loading featured opportunities...</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 College Placement Portal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="toast-container" id="toast-container" role="alert" aria-live="polite"></div>
+
+  <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

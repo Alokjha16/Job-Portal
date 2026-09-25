@@ -1,0 +1,322 @@
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search-form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .admin-overview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .container {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  .hero-content p {
+    font-size: var(--font-size-base);
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search-form {
+    grid-template-columns: 1fr;
+  }
+
+  .job-card-header {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .job-card-footer {
+    flex-direction: column;
+    gap: var(--spacing-md);
+    align-items: flex-start;
+  }
+
+  .job-card-actions {
+    width: 100%;
+  }
+
+  .job-card-actions .btn {
+    flex: 1;
+    text-align: center;
+  }
+
+  .job-details-header {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+
+  .job-details-meta {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .job-details-actions {
+    flex-direction: column;
+  }
+
+  .job-details-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .application-form {
+    padding: var(--spacing-lg);
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .form-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .email-search {
+    flex-direction: column;
+  }
+
+  .student-email-input {
+    flex-direction: column;
+  }
+
+  .admin-auth {
+    flex-direction: column;
+  }
+
+  .dashboard-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .admin-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+  }
+
+  .admin-actions .btn {
+    width: 100%;
+  }
+
+  .job-management-actions {
+    flex-direction: column;
+  }
+
+  .job-management-actions .btn {
+    width: 100%;
+  }
+
+  .recommended-job-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .recommended-job-card .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .hero {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .hero-content h1 {
+    font-size: var(--font-size-lg);
+  }
+
+  .hero-content p {
+    font-size: var(--font-size-sm);
+  }
+
+  .stat-card {
+    padding: var(--spacing-md);
+  }
+
+  .stat-card h3 {
+    font-size: var(--font-size-xl);
+  }
+
+  .page-header h1 {
+    font-size: var(--font-size-lg);
+  }
+
+  .job-card {
+    padding: var(--spacing-md);
+  }
+
+  .job-details {
+    padding: var(--spacing-md);
+  }
+
+  .job-details-header h1 {
+    font-size: var(--font-size-lg);
+  }
+
+  .application-card {
+    padding: var(--spacing-md);
+  }
+
+  .dashboard-stat-card {
+    padding: var(--spacing-md);
+  }
+
+  .admin-overview-card {
+    padding: var(--spacing-md);
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: var(--font-size-sm);
+  }
+
+  .btn {
+    font-size: var(--font-size-sm);
+    padding: var(--spacing-xs) var(--spacing-md);
+  }
+
+  .toast {
+    max-width: 300px;
+    font-size: var(--font-size-sm);
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-brand h1 {
+    font-size: var(--font-size-base);
+  }
+
+  .hero-content h1 {
+    font-size: var(--font-size-base);
+  }
+
+  .dashboard-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-section .jobs-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .navbar,
+  .hero-actions,
+  .job-card-actions,
+  .job-details-actions,
+  .admin-actions,
+  .search-form,
+  .toast-container {
+    display: none;
+  }
+
+  .job-card,
+  .job-details,
+  .application-card {
+    box-shadow: none;
+    border: 1px solid #000;
+    page-break-inside: avoid;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  :root {
+    --border-light: #000;
+    --border-medium: #000;
+    --text-muted: #000;
+  }
+
+  .job-card,
+  .job-details,
+  .application-card {
+    border: 2px solid #000;
+  }
+
+  .btn {
+    border: 2px solid currentColor;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Dark Mode Support (Optional) */
+@media (prefers-color-scheme: dark) {
+  /* Note: We're not implementing full dark mode as per requirements,
+     but this shows we support the media query if needed in future */
+}
