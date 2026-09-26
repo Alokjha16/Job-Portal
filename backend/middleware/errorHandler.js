@@ -1,4 +1,4 @@
-././const ApiResponse = require('../utils/apiResponse');
+/././const ApiResponse = require('../utils/apiResponse');
 
 class ApiError extends Error {
   constructor(statusCode, message, details = null) {
