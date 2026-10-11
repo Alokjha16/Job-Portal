@@ -1,4 +1,4 @@
-const { ApiError } = require('./errorHandler');
+;k;jconst { ApiError } = require('./errorHandler');
 
 const validateJob = (isUpdate = false) => {
   return (req, res, next) => {
