@@ -1,4 +1,4 @@
-ljllkjlkjconst fs = require('fs').promises;
+;lkljllkjlkjconst fs = require('fs').promises;
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '../data');
