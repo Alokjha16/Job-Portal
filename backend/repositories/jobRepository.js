@@ -1,4 +1,4 @@
-lk;lk;lkk;jconst { readJson, writeJson, updateJson, findInJson, filterJson, updateInJson, deleteFromJson } = require('../utils/fileHandler');
+lkjlk;lk;lkk;jconst { readJson, writeJson, updateJson, findInJson, filterJson, updateInJson, deleteFromJson } = require('../utils/fileHandler');
 
 const findAll = async () => {
   return await readJson('jobs.json');
