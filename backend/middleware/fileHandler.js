@@ -1,4 +1,4 @@
-jpojconst fs = require('fs').promises;
+oiuojpojconst fs = require('fs').promises;
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '../data');
